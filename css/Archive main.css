@@ -1,0 +1,996 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.outter
+{
+	width: 1024px;
+	height: auto;
+	margin: 0 auto;
+}
+	
+.navigation
+{
+	width: 1024px;
+	height: 95px;
+	background-color: #FFFFFF;
+}
+
+
+.logo
+{
+	width: 275px;
+	height: 95px;
+	float: left;
+ }
+
+.blank3
+{
+	width: 1024px;
+	height: 36px;
+	
+}
+.framemenu
+{
+	width: 342px;
+	height: 31px;
+	position: relative;
+	margin-top: 37px;
+	margin-left: 345px;
+}
+
+.menu2
+{
+	width: 749px;
+	height: 95px;
+	float: right;
+	
+ }
+    .menu2 ul
+     {
+		 list-style: none;
+		 display: flex; 
+		 font-size: 16px;
+	     color: #58595B;
+	     font-family:San Francisco Display;
+	     font-weight: 300;
+     } 
+
+      .menu2 ul li
+     {
+		 background-color: #FFFFFF;
+		transition: opacity 0 linear;
+
+     }
+
+     .menu2 ul li:hover
+     {
+		 background-color: #D43154;
+		 border-radius: 4px;
+		 transition-delay: 5s;
+		 transition: opacity 5s linear;
+     }
+
+     .menu2 ul li a
+     {
+		 text-decoration: none;
+		 padding: 15px;
+		 color:#000000;
+     }
+
+     .menu2 ul li a:hover
+     {
+		 text-decoration: none;
+		 color: #FFFFFF;
+     }
+
+
+.hr
+{
+	width: 1024px;
+	height: 1px;
+	background-color: #808285;
+	margin: 0 auto;
+	opacity: 0.3;
+ }
+
+
+	
+.frameSlider
+{
+	width: 962px;
+	height: 454; 
+	margin: 0 auto;
+}
+
+.favorite
+{
+	width: 1024px;
+	height: 130px;
+}
+
+   .SOF
+   {
+	   width: 159px;
+	   height: 25px;;
+	   font-size: 20px;
+	   color:#58595B;
+	   margin: 0 auto;
+	   line-height: 180px;
+	   font-family:San Francisco Display;
+	   font-weight: 500;
+
+   }
+
+
+.s3o5
+   {
+	   width: 73px;
+	   height: 20px;;
+	   font-size: 17px;
+	   color:#58595B;
+	   margin: 0 auto;
+	   line-height: 105px;
+	   font-family:San Francisco Display;
+	   font-weight: 100;
+	   float: right;
+	   margin-top:14px;
+	   margin-right: 30px;
+   }
+
+.blankSOF
+{
+	width: 1024px;
+	height: 20px;
+}
+
+.content3 
+{
+	width: 962px;
+	height: 290px;
+	margin: 0 auto;
+}
+
+     .ct3-1	
+     { 
+		 width: 308px;
+		 height: 265px;
+     }
+    
+     .hinhct3
+     {
+		width: 308px;
+		height: 213px;
+     }
+
+     .textct3  
+      {
+		width: 308px;
+		height: 52px;
+		margin-top: 12px;
+	    font-family:San Francisco Display;
+	    font-weight: 450;
+		color: #58595B;
+		
+
+     }
+
+
+.browse
+{
+	width: 1024px;
+	height: 73px;
+}
+
+.textbrowse
+   {
+	   width: 152px;
+	   height: 25px;;
+	   font-size: 20px;
+	   color:#58595B;
+	   margin: 0 auto;
+	   line-height: 115px;
+	   font-family:San Francisco Display;
+	   font-weight: 500;
+   }
+
+.search
+{
+	width: 1024px;
+	height: 110px;
+	position: relative;
+}
+    .filter
+    {
+	width: 90px;
+	height: 9px;
+	font-size: 11px;
+    line-height: 98px;
+	font-family:San Francisco Display;
+	font-weight: 500; 
+	margin-left: 33px;
+    color:#58595B;
+   }
+
+    
+   .framesearch1
+   {
+	  width: 636px;
+	  height: 34px;
+      margin: 20px 10px 0px 180px;
+	  border: 1px solid #BCBEC0;
+   }
+  
+   input[type=framesearch] {
+  width: 630px;
+  height: 36px;
+  box-sizing: border-box;
+  border: 1px solid #BCBEC0;
+  border-radius: 2px;
+  font-size: 10px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  margin: 20px 10px -3px 180px;
+}
+
+input[type=framesearch]:focus {
+  width: 636px;
+  height: 36px;
+}
+
+
+    .sort
+    {
+	width: 20px;
+	height: 6px;
+	font-size: 8px;
+	font-family:San Francisco Display;
+	font-weight: 500; 
+    color:#58595B;
+	position: absolute;
+    margin: -22px 860px;
+   }
+
+.framepc
+{ 
+  width: 92px;
+  height: 36px;
+  margin: -29px 10px 0px 902px;
+  border: 1px solid #BCBEC0;
+
+}
+   
+.menu
+{
+	width: 92px;
+    height: 30px;
+	background-color: #FFFFFF;
+	font-size: 11px;
+    margin: -34px 10px 0px 900px;
+
+}
+
+.menu ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+    font-family:San Francisco Display;
+	position: absolute;
+	z-index: 1000;
+	margin-left: 0.9px;
+}
+
+.menu ul li
+{
+	padding: 10px;
+	position: relative; 
+}
+
+
+.menu ul li a
+{
+	text-decoration: none;
+	color: #58595B;
+	margin-left: 4px;
+	
+}
+
+.menu ul li:hover
+{
+	
+
+}
+
+.menu ul li:hover a
+{
+	color: #58595B;
+}
+
+.menu ul li ul li:hover
+{
+	background-color: #D43154;
+	opacity: 0.9;
+}
+
+.menu ul li ul
+{
+	position: absolute;
+	background-color: #FFFFFF;
+    border: 1px solid #BCBEC0;
+	left: 0px;
+	top: 36px;
+	width: 92px;
+	visibility:hidden;
+}
+
+.menu ul li:hover ul 
+{
+	visibility: visible;
+}
+
+.menu ul li ul li
+{
+	width: 90px;
+}
+ 
+.menu ul li:hover ul li a
+{
+	color: #58595B;
+}
+
+.menu ul li:hover ul li:hover a
+{
+	color: #FFFFFF;
+}
+
+  
+
+   
+   .highprice
+   {
+	  width: 90px;
+	  height: 34px;
+	  font-size: 11px;
+	  font-family:San Francisco Display;
+      color:#58595B;
+	  margin: 7px 10px 10px 12px;
+   }
+
+
+
+ 
+
+.hr2
+{
+	width: 964px;
+	height: 1px;
+	background-color: #808285;
+	margin: 0 auto;
+	opacity: 0.5;
+ }
+
+.blank
+{
+	width: 226px;
+	height: 21px;
+}
+
+
+.content4-1
+{
+	width: 1024px;
+	height: 434px;
+	position: relative;
+	
+}
+
+
+ .image4-1
+   {
+	width: 226px;
+	height: 297px;
+	transition: all .2s ease-out;
+   }
+
+    .image4-1:hover
+{ 
+	transform: scale(0.97); 
+	box-shadow: inset 0 0 0 50px #53a7ea;
+
+}
+	   
+ .text4-1
+{
+	width: 226px;
+	height: 97px;
+}
+
+     .gio
+     {
+	   width: 60px;
+	   height: 7px;
+	   font-size: 9px;
+	   font-family:San Francisco Display;
+       color:#58595B;
+	   margin-left: 5px;
+	   line-height: 23px;
+     }
+
+     .gach1
+     {
+	   width: 226px;
+	   height: 1px;
+	   background-color: #A7A9AC;
+	   margin-top: 16px;
+	   opacity: 0.3;
+     }
+
+     .ten
+     {
+	   width: 250px;
+	   height: 11px;
+	   font-size: 11px;
+ 	   font-family:San Francisco Display;
+	   font-weight: 600;
+       color:#58595B;
+	   margin-left: 5px;
+	   line-height: 40px;
+     }
+
+     .size
+     {
+	   width: 11px;
+	   height: 11px;
+	   font-size: 11px;
+ 	   font-family:San Francisco Display;
+	   font-weight: 600;
+       color:#58595B;
+	   margin-left: 208px;
+	   line-height: 19px;
+     }
+
+     .material
+     {
+	   width: 176px;
+	   height: 9px;
+	   font-size: 10px;
+ 	   font-family:San Francisco Display;
+	   font-weight: 350;
+       color:#58595B;
+	   margin-left: 5px;
+	   line-height: 29px;
+     }
+
+     .price
+     {
+	   width: 43px;
+	   height: 9px;
+	   font-size: 10px;
+ 	   font-family:San Francisco Display;
+	   font-weight: 600;
+       color:#58595B;
+	   margin-left: 5px;
+	   line-height: 60px;
+     }
+     
+     .framesao
+     {
+		 width: 22px;
+		 height: 22px;
+		 background-color: aqua;
+		 margin: 4px 10px 20px 204px;
+     }
+
+     .sao
+     {
+		 width: 22px;
+		 height: 22px;
+		 margin: 4px 10px 20px 200px;
+     }
+
+     .saoden
+     {
+		 width: 22px;
+		 height: 22px;
+		 margin: -42px 10px 20px 200px;
+     }
+
+ .frame4-1
+{
+	width: 226px;
+	height: 394px;
+	position: absolute;
+	margin: 20px 0 20px 30px;
+	box-shadow: 1px 1px 50px 1px #F2F2F2;
+}
+
+
+.frame4-2
+{
+	width: 226px;
+	height: 394px;
+	position: absolute;
+	margin: 20px 0 20px 276px;
+	box-shadow: 1px 1px 50px 1px #F2F2F2;
+
+}
+
+.frame4-3
+{
+	width: 226px;
+	height: 394px;
+	position: absolute;
+	margin: 20px 0 20px 522px;
+	box-shadow: 1px 1px 50px 1px #F2F2F2;
+
+}
+
+.frame4-4
+{
+	width: 226px;
+	height: 394px;
+	position: absolute;
+	margin: 20px 0 20px 768px;
+	box-shadow: 1px 1px 50px 1px #F2F2F2;
+
+}
+
+.content4-2
+{
+	width: 1024px;
+	height: 434px;
+}
+
+     .frame4-5
+     {
+	   width: 226px;
+	   height: 394px;
+	   position: absolute;
+	   margin: 20px 0 20px 30px;
+	   box-shadow: 1px 1px 50px 1px #F2F2F2;
+		 
+     }
+
+     .frame4-6
+     {
+	   width: 226px;
+	   height: 394px;
+	   position: absolute;
+	   margin: 20px 0 20px 276px;
+	   box-shadow: 1px 1px 50px 1px #F2F2F2;
+     }
+
+     .frame4-7
+     {
+	   width: 226px;
+	   height: 394px;
+	   position: absolute;
+	   margin: 20px 0 20px 522px;
+	   box-shadow: 1px 1px 50px 1px #F2F2F2;
+     }
+
+     .frame4-8
+     {
+	   width: 226px;
+	   height: 394px;
+	   position: absolute;
+	   margin: 20px 0 20px 768px;
+	   box-shadow: 1px 1px 50px 1px #F2F2F2;
+     }
+
+.content4-3
+{
+	width: 1024px;
+	height: 434px;
+}
+
+     .frame4-9
+     {
+	   width: 226px;
+	   height: 394px;
+	   position: absolute;
+	   margin: 20px 0 20px 30px;
+	   box-shadow: 1px 1px 50px 1px #F2F2F2;
+     }
+
+     .frame4-10
+     {
+	   width: 226px;
+	   height: 394px;
+	   position: absolute;
+	   margin: 20px 0 20px 276px;
+	   box-shadow: 1px 1px 50px 1px #F2F2F2;
+     }
+
+     .frame4-11
+     {
+	   width: 226px;
+	   height: 394px;
+	   position: absolute;
+	   margin: 20px 0 20px 522px;
+	   box-shadow: 1px 1px 50px 1px #F2F2F2;
+     }
+
+     .frame4-12
+     {
+	   width: 226px;
+	   height: 394px;
+	   position: absolute;
+	   margin: 20px 0 20px 768px;
+	   box-shadow: 1px 1px 50px 1px #F2F2F2;
+     }
+
+.content4-4
+{
+	width: 1024px;
+	height: 434px;
+}
+
+     .frame4-13
+     {
+	   width: 226px;
+	   height: 394px;
+	   position: absolute;
+	   margin: 20px 0 20px 30px;
+	   box-shadow: 1px 1px 50px 1px #F2F2F2;
+     }
+
+     .frame4-14
+     {
+	   width: 226px;
+	   height: 394px;
+	   position: absolute;
+	   margin: 20px 0 20px 276px;
+	   box-shadow: 1px 1px 50px 1px #F2F2F2;
+     }
+
+     .frame4-15
+     {
+	   width: 226px;
+	   height: 394px;
+	   position: absolute;
+	   margin: 20px 0 20px 522px;
+		box-shadow: 1px 1px 50px 1px #F2F2F2;
+     }
+
+     .frame4-16
+     {
+	   width: 226px;
+	   height: 394px;
+	   position: absolute;
+	   margin: 20px 0 20px 768px;
+		 box-shadow: 1px 1px 50px 1px #F2F2F2;
+     }
+
+.thanhso
+{
+	width: 1024px;
+	height: 180px;
+	position: relative;
+}
+		.oso1
+        {
+			width: 40px;
+			height: 40px;
+			background-color: #D43154;
+			border-radius: 2px;
+			position: absolute;
+			margin-left: 440px;
+			margin-top: 40px;
+			font-family:San Francisco Display;
+	        font-weight: 500;
+			font-size: 22px;
+			color: #FFFFFF;
+        }
+
+        .oso1:hover
+        {
+			background-color: #D43154;
+			border-radius: 2px;
+			color: #FFFFFF;
+        }
+
+
+        .oso2
+        {
+			width: 40px;
+			height: 40px;
+			background-color: #E6E7E8;
+			border-radius: 2px;
+			position: absolute;
+			margin-left: 490px;
+			margin-top: 40px;
+			font-family:San Francisco Display;
+	        font-weight: 500;
+			font-size: 22px;
+			color: #6D6E71;
+        }
+
+        .oso2:hover
+        {
+			background-color: #D43154;
+			border-radius: 2px;
+			color: #FFFFFF;
+        }
+
+        .oso3
+        {
+			width: 40px;
+			height: 40px;
+			background-color: #E6E7E8;
+			border-radius: 2px;
+			position: absolute;
+			margin-left: 540px;
+			margin-top: 40px;
+			font-family:San Francisco Display;
+	        font-weight: 500;
+			font-size: 22px;
+			color: #6D6E71;
+        }
+       
+         .oso3:hover
+        {
+			background-color: #D43154;
+			border-radius: 2px;
+			color: #FFFFFF;
+        }
+      
+
+.banner
+{
+	width: 1024px;
+	height: 267px;
+	position: relative;
+}
+         input[type=email], select {
+
+			width: 200px;
+			height: 33px;
+			background-color: #FFFFFF;
+			border-radius: 2px;
+			position: absolute;
+			margin-top: -100px;
+			margin-left: 367px;
+			font-family:San Francisco Display;
+			padding: 8px;
+        }
+
+        .textemail
+        {
+			width: 200px;
+			height: 33px;
+			font-family:San Francisco Display;
+	        font-weight: 300;
+			font-size: 13px;
+			color: #58595B;
+			margin-top: 7px;
+			margin-left: 13px;
+        }
+
+
+       .sub
+        {
+			width: 80px;
+			height: 33px;
+			background-color: #D43154;
+			border-radius: 2px;
+			position: absolute;
+			margin-top: -100px;
+			margin-left: 580px;
+			font-family:San Francisco Display;
+	        font-weight: 600;
+			font-size: 13px;
+			color: #FFFFFF;
+			line-height: -50px;
+        }
+
+        .sub:hover
+        {
+	       background-color: #FFFFFF;
+		   color: #D43154;
+        }
+		
+.blank2
+{
+	width: 1024px;
+	height: 100px;
+}
+
+
+		
+
+.wow:first-child 
+    {
+      visibility: hidden;
+    }
+		
+
+.crunchify-top:hover 
+  {
+	color: #fff !important;
+	background-color: #D43154;
+	text-decoration: none;
+  } 
+ 
+.crunchify-top {
+	display: none;
+	position: fixed;
+	bottom: 1rem;
+	right: 2.8rem;
+	width: 3.2rem;
+	height: 3.2rem;
+	line-height: 3.2rem;
+	font-size: 1.4rem;
+	color: #fff;
+	background-color: #E6E7E8;
+	text-decoration: none;
+	border-radius: 3.2rem;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+body {
+	font-size: 10px;
+    }
+
+.footer
+{
+	width: 1024px;
+	height: 215px;
+	background-color: #58595B;
+    position: relative;
+}
+
+.logofooter
+{
+	width: 186px;
+	height: 52px;
+	position: absolute;
+	margin: 26px 0px 10px 92px;
+}
+
+.facebook
+{
+	width: 7.27px;
+	height: 13.44px;
+	position: absolute;
+	margin: 83px 0px 10px 92px;
+}
+
+.Instagram
+{
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	margin: 83px 0px 10px 129px;
+}
+
+.Youtube
+{
+	width: 20px;
+	height: 14px;
+	position: absolute;
+	margin: -22px 0px 10px 42px;
+}
+
+.GG
+{
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	margin: -22px 0px 10px 89px;
+}
+
+.Twitter
+{
+	width: 17px;
+	height: 14px;
+	position: absolute;
+	margin: -23px 0px 10px 130px;
+}
+
+.textfooter
+{
+	width: 184px;
+	height: 23px; 
+	margin: 14px 10px 10px -39px;
+	position: absolute;
+	font-size: 7.7px;
+ 	Font-family:San Francisco Display;
+	font-weight: 150;
+	color: #FFFFFF;
+}
+
+.textfooter2
+{
+	width: 195px;
+	height: 23px; 
+	margin: 27px 10px 10px -39px;
+	position: absolute;
+	font-size: 7.7px;
+ 	Font-family:San Francisco Display;
+	font-weight: 150;
+	color: #FFFFFF;
+}
+
+.GTApp
+{
+	width: 74px;
+	height: 18px;
+	font-size: 14px;
+ 	Font-family:San Francisco Display;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin: -73px 10px 10px 300px; 
+}
+
+.Explore
+{
+	width: 74px;
+	height: 18px;
+	font-size: 14px;
+ 	Font-family:San Francisco Display;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin: -113px 10px 10px 525px; 
+}
+
+.Legal
+{
+	width: 74px;
+	height: 18px;
+	font-size: 14px;
+ 	Font-family:San Francisco Display;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin: -28px 10px 10px 730px; 
+}
+
+.android
+{
+	width: 92px;
+	height: 32px;
+	margin: 15px 10px 400px 300px; 
+}
+
+.Apple
+{
+	width: 92px;
+	height: 32px;
+	margin-top: -384px;
+	margin-left: 300px;
+}
+
+.Exploredetail
+{
+	width: 70px;
+	height: 104px;
+	font-size: 15px;
+ 	Font-family:San Francisco Display;
+	font-weight: 200;
+	color: #D1D3D4;
+	line-height: 30px;
+	margin-left: 525px;
+	margin-top: -1px;
+}
+
+.Legaidetail
+{
+	width: 70px;
+	height: 104px;
+	font-size: 15px;
+ 	Font-family:San Francisco Display;
+	font-weight: 200;
+	color: #D1D3D4;
+	line-height: 30px;
+	margin-left: 730px;
+	margin-top: -103px;
+}
+
